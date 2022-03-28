@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="App.css">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>boats boats boats</title>
+</head>
+<body>
+    <script>
+        function openMenu() {
+        document.querySelector(".sidebar").classList.add("sidebar-open");
+      }
+    
+      function closeMenu(){
+        document.querySelector(".sidebar").classList.remove("sidebar-open");
+      }
+    </script>
+    <div class="grid-container">
+        <header class="header">
+            <div class="brand">
+                <button  onclick="openMenu()" class="brand-button">
+                    &#9776; 
+                </button>
+                <a href="index.html">MMC Serviços Marítimos</a>
+                
+            </div>
+    
+            <div class="header-links">
+                <a href="#">Carrinho</a>
+                <a class='spacement-header-links' href="#">Entrar</a>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <h3 class="h3-sidebar">Categorias</h3>
+            <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+            <ul>
+                <li>
+                    <a href="index.html">Barcos Simples</a>
+                </li>
+    
+                <li>
+                    <a href="luxuryBoats.html">Barcos Complexos</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main">
+            <div class="content">
+         
+            
+            <ul class="products">
+                            
+        
+                <li>
+                  <div class="product">
+                  <a href="product1.html">
+                  <img class="product-image" src="images/krinha.jpeg" alt="product" />
+                  </a>
+                      
+                      <div class="product-name">
+                          <a href="product1.html">Krinha</a>
+                          
+                      </div>
+                      <div class="product-brand">undefined</div>
+                      <div class="product-price">R$1000</div>
+                  </div>
+              </li>
+            
+              <li>
+                <div class="product">
+                <a href="product2.html">
+                <img class="product-image" src="images/krinha.jpeg" alt="product" />
+                </a>
+                    
+                    <div class="product-name">
+                        <a href="product2.html">Krinha com cabine atrás</a>
+                        
+                    </div>
+                    <div class="product-brand">undefined</div>
+                    <div class="product-price">R$1000</div>
+                </div>
+            </li>
+        
+               
+          </ul>
+                
+            </div>
+            
+        </main>
+        <footer class="footer">
+            All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>

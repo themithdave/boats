@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="App.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="product.css">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function openMenu() {
+        document.querySelector(".sidebar").classList.add("sidebar-open");
+      }
+    
+      function closeMenu(){
+        document.querySelector(".sidebar").classList.remove("sidebar-open");
+      }
+    </script>
+    <div class="grid-container">
+        <header class="header">
+            <div class="brand">
+                <button  onclick="openMenu()" class="brand-button">
+                    &#9776; 
+                </button>
+                <a href="index.html">MMC Serviços Marítimos</a>
+                
+            </div>
+    
+            <div class="header-links">
+                <a href="#">Carrinho</a>
+                <a class='spacement-header-links' href="#">Entrar</a>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <h3 class="h3-sidebar">Categorias</h3>
+            <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+            <ul>
+                <li>
+                    <a href="index.html">Barcos Simples</a>
+                </li>
+    
+                <li>
+                    <a href="luxuryBoats.html">Barcos Complexos</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main">
+            <div>
+    
+                <div>
+                    <a class="back-to-result" href="index.html">De volta para resultados</a>
+                </div>
+    
+                <div class="details">
+                    <div class="details-image">
+                        <img src="images/krinha.jpeg" alt="product" />
+                    </div>
+                    <div class='details-info'>
+                        <ul>
+                            <li>
+                                <h4>Krinha</h4>
+                            </li>
+                            <li>
+                            4.5 Stars (10 reviews)
+                            </li>
+                            <li>
+                                Preço: <b>R$1000</b>
+                            </li>
+                            <li>
+                                Description:
+                                <div>
+                                    Barco para pesca.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="details-action">
+                        <form id="form">
+                            <ul>
+                                <li>
+                                    Preço: R$1000
+                                </li>
+        
+                                <li>
+                                    Status: Disponivel
+                                </li>
+        
+                                <li>
+                                    Dias Alugados: <select id="rentSelect">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <input type="submit" class="button"></input>
+                                </li>
+                                <script>
+                                    var diasAlugados = document.getElementById('rentSelect');
+                                    form.addEventListener('submit', function(e) {
+                                    
+                                    alert(diasAlugados.value);
+
+                                    e.preventDefault();
+    });
+                                </script>
+                            </ul>
+                        </form>
+                        
+                    </div>
+                </div>
+           
+                
+            </div>
+            
+        </main>
+        <footer class="footer">
+            All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
