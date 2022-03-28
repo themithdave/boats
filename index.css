@@ -42,6 +42,18 @@ body {
   text-decoration: none;
 }
 
+@media screen and (max-width: 500px) {
+  .brand a {
+    font-size: 1.5rem;
+  }
+  .header-links a{
+    font-size: 1rem;
+  }
+  .details-image img{
+    width: 40rem;
+  }
+  } 
+
 .header-links a{
   color: #fff;
   text-decoration: none;
@@ -135,6 +147,7 @@ max-height: 34rem;
   color: white;
   cursor: pointer;
 }
+
 
 .sidebar {
   background-color: #f0f0f0;
