@@ -201,3 +201,15 @@ max-height: 34rem;
 .sidebar li{
   list-style-type: none;
 }
+
+.paymentScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.paymentCSS {
+  padding-right: 100px;
+}

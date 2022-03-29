@@ -30,7 +30,7 @@
             </div>
     
             <div class="header-links">
-                <a href="#">Carrinho</a>
+                <a href="cart.html">Carrinho</a>
                 <a class='spacement-header-links' href="#">Entrar</a>
             </div>
         </header>
@@ -47,6 +47,19 @@
                 </li>
             </ul>
         </aside>
+       <!-- <aside class="sidebar-pay">
+            <h3 class="h3-sidebar">Faça o seu pagamento</h3>
+            <button class="sidebar-close-button" onclick="closeMenuPay()">x</button>
+            <ul>
+                <li>
+                    <a href="index.html">Barcos Simples</a>
+                </li>
+    
+                <li>
+                    <a href="luxuryBoats.html">Barcos Premmium</a>
+                </li>
+            </ul>
+        </aside> -->
         <main class="main">
             <div>
     
@@ -124,23 +137,28 @@
                                     </select>
                                 </li>
                                 <li>
-                                    <input type="submit" class="button"></input>
+                                    <!-- <input type="submit" class="button"></input> -->
+                                    
+                                    <a href="cart.html">
+                                        <input type="button" class="button" value="Alugue já"></input>
+                                        </a>
                                 </li>
-                                <script>
-                                    var diasAlugados = document.getElementById('rentSelect');
+                             <!--   <script>
+                                 var diasAlugados = document.getElementById('rentSelect');
                                     form.addEventListener('submit', function(e) {
                                     
                                     alert("Contate o email mmc@servicosmaritimos.com para alugar o barco por "+diasAlugados.value+" dias");
 
-                                    e.preventDefault();
-    });
-                                </script>
+                                    e.preventDefault(); 
+    }); 
+                                </script>   -->
+                                
                             </ul>
                         </form>
                         
                     </div>
                 </div>
-           
+               
                 
             </div>
             
