@@ -115,6 +115,19 @@ a:hover{
 
 }
 
+.warning{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  height: 100%;
+
+}
+
+.warning img{
+  padding-left: 450px;
+
+}
+
 .product-name {
   font-size: 2rem;
   font-weight: bold;
