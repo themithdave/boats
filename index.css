@@ -14,10 +14,11 @@ body {
   height: 100%;
 }
 
-@media screen and (max-width: 500px) {
-  .brand a {
-    font-size: 1rem;
-  }
+@media screen and (max-width: 500px) and (min-width: 100px) {
+ .link-brand {
+   font-size: 10px;
+   
+ }
   .header-links a{
     font-size: 1rem;
   }
@@ -40,8 +41,8 @@ body {
   }
 
    #slider img{
-     width: 90%;
-        margin-left: -350px;
+     width:20%;
+        margin-left: -300px;
     }
     .button {
       width: 250px;
@@ -75,6 +76,21 @@ body {
       }
   }
 
+  .button {
+    padding: 1rem;
+    border: .1rem #808080 solid;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: #f0c040;
+    transition: filter 0.2s;
+}
+
+.button:hover{
+    border: .1rem #408080 solid;
+    filter: brightness(90%);
+}
+
+
   
 
 .grid-container {
@@ -100,7 +116,7 @@ body {
 
 .brand a{
   color: white;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
 }

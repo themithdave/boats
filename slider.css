@@ -4,13 +4,13 @@ body {
 }
 
 #slider {
-    width: 80%;
-    max-width: 500px;
-    height: 25vw;
+    width: 70%;
+    max-width: 300px;
+    height: 15vw;
     max-height: 250px;
-    padding-left: 270px;
+    padding-left: 210px;
     padding-top: 20px;
-    margin-left: 50px;
+
     position: relative;
 }
 
@@ -31,3 +31,8 @@ body {
     opacity: 1;
 }
 
+@media screen and (max-width: 500px) {
+    #slider {
+        
+    }
+}
