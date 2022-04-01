@@ -16,7 +16,7 @@ body {
 
 @media screen and (max-width: 500px) {
   .brand a {
-    font-size: -50%;
+    font-size: 1rem;
   }
   .header-links a{
     font-size: 1rem;
@@ -281,7 +281,11 @@ max-height: 34rem;
 }
 
 .banner {
-  
+  width: 70%;
+  max-width: 600px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 400px;
 
 }
 
