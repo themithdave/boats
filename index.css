@@ -70,6 +70,11 @@ body {
     background-color: #f0c040;
     transition: filter 0.2s;
     }
+
+    .button:hover{
+      border: .1rem #408080 solid;
+      filter: brightness(90%);
+  }
   
     .h2-home {
       margin-left: 0px;
