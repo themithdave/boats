@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font: 1.6rem Helvetica;
+  font: 1.5rem Helvetica;
   height: 100vh;
   margin: 0;
 }
@@ -16,7 +16,7 @@ body {
 
 @media screen and (max-width: 500px) {
   .brand a {
-    font-size: 1rem;
+    font-size: -10px;
   }
   .header-links a{
     font-size: 1rem;
