@@ -16,7 +16,7 @@ body {
 
 @media screen and (max-width: 500px) {
   .brand a {
-    font-size: -10px;
+    font-size: -50%;
   }
   .header-links a{
     font-size: 1rem;
